@@ -9,9 +9,5 @@ variable "AWS_AMIS" {
     ap-northeast-2 = "ami-ab77d4c5"
   }
 }
-variable "PATH_TO_PRIVATE_KEY" {
-  default = "mykey"
-}
-variable "PATH_TO_PUBLIC_KEY" {
-  default = "mykey.pub"
-}
+variable "PATH_TO_PRIVATE_KEY" {}
+variable "PATH_TO_PUBLIC_KEY" {}
